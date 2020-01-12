@@ -1,4 +1,4 @@
-# [CS50 AP]({{ "/" | relative_url }})
+# [CHS-ICS]({{ "/" | relative_url }})
 
 Clayton High School\\
 2019–2020
