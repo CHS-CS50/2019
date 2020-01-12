@@ -1,17 +1,14 @@
-# CS50 Core Curriculum
+# Curriculum
 
-* [Chapter 0](0)
-* [Chapter 1](1)
-* [Chapter 2](2)
-* [Chapter 3](3)
-* [Chapter 4](4)
-* [Chapter 5](5)
-* [Chapter 6](6)
-* [Chapter 7](7)
-* [Chapter 8](8)
-
-# AP Modules
-
-* [Understanding Technology](understanding_technology)
-* [Data Science](data_science)
-* [Impact of Computing](impact_of_computing)
+Chapter | Topic
+--------|------
+[Chapter -1](understanding_technology) | Understanding Technology
+[Chapter 0](0) | Binary. ASCII. Algorithms. Pseudocode. Scratch.
+[Chapter 1](1) | Syntax. Variables. Data Types. Operators. Boolean Expressions and Conditionals. Loops.
+[Chapter 2](2) | Compiling. Debugging. Arrays and Strings. Command-Line Interaction. Exit Codes. Searching. Computational Complexity. Computational Models.
+Chapter 3 | Functions. Tools for Debugging. More on Strings. Memory. Pointers. Structs.
+Chapter 4 | Valgrind. More on Structs. Linked Lists. Hash Tables. Trees. Tries.
+Chapter 5 | Internet Basics. HTTP. HTML. Forms. CSS. JavaScript.
+Chapter 6 | Python. Conditionals. Booleans. Loops. Data Types. Functions.
+Chapter 7 | Flask. MVC. Autocomplete. Events. Ajax. JSON.
+Chapter 8 | Cookies. Sessions. Databases. SQL. Race Conditions.
