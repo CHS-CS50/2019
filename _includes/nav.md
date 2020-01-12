@@ -8,7 +8,7 @@
 
 ***
 
-**CSH-ICS Resources**
+**CHS-ICS Resources**
 
 * [**Curriculum**]({{ "/curriculum" | relative_url }})
 * [Tools]({{ "/tools" | relative_url }})
