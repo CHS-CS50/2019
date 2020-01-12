@@ -13,6 +13,11 @@ Scratch helps young people learn to think creatively, reason systematically, and
 Scratch is a project of the Lifelong Kindergarten Group at the MIT Media Lab. It is provided free of charge.
 <http://scratch.mit.edu/>
 
+## Github
+
+Gtihub is an online development platform used by millions including some of the top companies in the world. Github accounts will be required by students to access course material and complete problems. 
+<http://www.github.com/>
+
 ## CS50 Sandbox
 
 Temporary programming environments for students and teachers
@@ -25,6 +30,7 @@ Programming environment for students to complete guided assignments.
 ## CS50 IDE
 
 CS50 IDE is a cloud-based Integrated Development Environment powered by AWS that features a cloud-based Ubuntu environment. Since it’s cloud-based, you can continue working on your problem sets even if you use a different computer!
+<https://ide.cs50.io/>
 
 ## Command-Line Tools
 
@@ -48,6 +54,11 @@ Usage: `style50 program.c`
 
 Checks for correctness using test cases  
 Usage: `check50 cs50/problems/2018/ap/problem_name`
+
+#### `submit50`
+
+Site used to submit problems for grading.
+Course Invite: <https://submit.cs50.io/invites/2443b5824fdd4ffb90760b856b20f0e4/>
 
 ## Documentation
 
