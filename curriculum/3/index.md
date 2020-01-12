@@ -6,7 +6,7 @@
   * [Pointer Fun with Binky](https://www.youtube.com/watch?v=_d0jFalGxnQ)
 * [Notes](notes)
 * Problems
-  * [Fifteen](https://docs.cs50.net/2019/ap/problems/fifteen/fifteen.html)
+  * [Fifteen](https://lab.cs50.io/CHS-CS50/2019/master/curriculum/3/fifteen/)
   * [Whodunit](https://docs.cs50.net/2019/ap/problems/whodunit/whodunit.html)
   * [Resize (less comfy)](https://docs.cs50.net/2019/ap/problems/resize/less/resize.html) or [Resize (more comfy)](https://docs.cs50.net/2019/ap/problems/resize/more/resize.html)
   * [Recover](https://docs.cs50.net/2019/ap/problems/recover/recover.html)
