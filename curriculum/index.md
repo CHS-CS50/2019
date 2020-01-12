@@ -12,9 +12,10 @@
 - [Chapter 2](2)
 
    Compiling. Debugging. Arrays and Strings. Command-Line Interaction. Exit Codes. Searching. Computational Complexity. Computational Models.
-- Chapter 3
+- [Chapter 3](3)
    
    Functions. Tools for Debugging. More on Strings. Memory. Pointers. Structs.
+<!--
 - Chapter 4
 
    Valgrind. More on Structs. Linked Lists. Hash Tables. Trees. Tries.
@@ -30,3 +31,4 @@
 - Chapter 8
 
    Cookies. Sessions. Databases. SQL. Race Conditions.
+-->
