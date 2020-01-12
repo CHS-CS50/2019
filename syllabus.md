@@ -1,10 +1,10 @@
 # Syllabus
 
-###### [Download the full syllabus as a PDF with mappings to the AP CSP Framework's Learning Objectives](https://www.dropbox.com/s/dl/3osf5dq3et1b13i/Syllabus%202019-20.pdf?dl=0)
+This course, and syllabus below, is based on Harvard University's CS50 course. Changes and modifications will be made to the course to suit the students abilities and to fit the timeline of the school year.
 
 ## Description
 
-CS50 is Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming for students with a diversity of technological background and experience. CS50 for AP Computer Science Principles is an adaptation of CS50 specifically tailored to align with the AP Computer Science Principles curriculum framework. The course’s assignments, materials, and resources are all identical to the version of the course taught at the college-level, albeit adapted to suit a secondary school audience.
+CS50 is Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming for students with a diversity of technological background and experience. CHS-ICS is an adaptation of CS50 specifically tailored for high school students. The course’s assignments, materials, and resources are all identical to the version of the course taught at the college-level, albeit adapted to suit a secondary school audience.
 
 Among this course’s objectives is to supply students with a comprehensive introduction to the fundamentals of the discipline of computer science. We will do so using programming in several different languages as a vehicle to introduce these fundamentals, including such topics as algorithms, abstraction, data, global impact, and internet technologies. Though the course is programming-heavy, it should be stressed that this is not a “programming course”; rather, this course should be considered one of problem-solving, creativity, and exploration. By year’s end, students will have a richer understanding of the key principles of the discipline of computer science. Students will be able to speak intelligently about how computers work and how they enable us to become better problem-solvers, and will hopefully be able to communicate that knowledge to others.
 
@@ -12,11 +12,11 @@ Whether students elect to take no other computer science courses in their lifeti
 
 ## Expectations
 
-Students are expected to submit all problems! If students would like to receive AP credit they will need to take the [AP CSP Exam](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam) and complete the [Create and Explore Tasks](https://apcentral.collegeboard.org/pdf/ap-csp-student-task-directions.pdf).
+Students are expected to submit all assigned problems and adhere to the Academic Honesty policies below!
 
 ## Prerequisites
 
-The only background required for CS50 for AP Computer Science Principles is completion of Algebra I or its equivalent.
+The only background required for CHS-ICS is completion of Algebra I or its equivalent.
 
 ## Books
 
@@ -54,7 +54,8 @@ ISBN 0-321-84268-5
 
 ## Overview
 
-Consistent with the AP Computer Science Principles curriculum framework, the course’s material is organized around seven so-called “big ideas” as well as six computational thinking practices. The seven big ideas are:
+The course’s material is organized around seven so-called “big ideas” as well as six computational thinking practices. The seven big ideas are:
+
 1.	Creativity
 2.	Abstraction
 3.	Data and Information
@@ -62,7 +63,6 @@ Consistent with the AP Computer Science Principles curriculum framework, the cou
 5.	Programming
 6.	The Internet
 7.	Global Impact
-<br>
 
 And the six computational thinking practices are:
 
@@ -75,9 +75,9 @@ And the six computational thinking practices are:
 
 ## Curriculum
 
-The core curriculum is identical to that of the college. The AP modules include topics that are not covered in CS50 here on campus, but are essential to the AP Computer Science Principles Course. The AP modules are less programming centric and can be used wherever you see fit.
+### Understanding Technology
 
-## CS50 Core Curriculum
+Hardware. The Internet. Multimedia. Security.
 
 ### Chapter 0
 
@@ -107,46 +107,17 @@ Internet Basics. HTTP. HTML. Forms. CSS. JavaScript.
 
 Python. Conditionals. Booleans. Loops. Data Types. Functions.
 
-### Chapter 7
+## Anticipated Timeline
 
-Flask. MVC. Autocomplete. Events. Ajax. JSON.
-
-### Chapter 8
-
-Cookies. Sessions. Databases. SQL. Race Conditions.
-
-## AP Modules
-
-### Understanding Technology
-
-Hardware. The Internet. Multimedia. Security.
-
-### Data Science
-
-Collecting Data. Analyzing Data.
-
-### Impact of Computing
-
-The Development Process. Scaling. Models. Simulations. The Digital Divide. Ethics and Legalities of Computing.
-
-## Recommended Order
-
-We present below a recommended ordering of the curriculum and a suggested timetable. These recommendations are based on a 36-week long school year, where students are available for 180 classroom minutes. However, student experience can vary widely; these recommendations are designed to capture an "average" class.
-
-1. Understanding Technology (3 weeks)
-2. Chapter 0 (2 weeks)
-3. Performance Task 1: Explore (2 weeks)
-4. Chapter 1 (4 weeks)
-5. Chapter 2 (3 weeks)
-6. Chapter 3 (4 weeks)
-7. Chapter 4 (2 weeks)
-8. Data Science (1 week)
-9. Chapter 5 (3 weeks)
-10. Chapter 6 (3 weeks)
-11. Chapter 7 (3 weeks)
-12. Chapter 8 (2 weeks)
-13. Performance Task 2: Create (3 weeks)
-12. Impact of Computing (1 week)
+1. Understanding Technology (4 weeks)
+2. Chapter 0 (4 weeks)
+3. Chapter 1 (4 weeks)
+4. Chapter 2 (4 weeks)
+5. Chapter 3 (4 weeks)
+6. Chapter 4 (4 weeks)
+7. Chapter 5 (4 weeks)
+8. Chapter 6 (4 weeks)
+9. Chapter 7 (4 weeks)
 
 ## Academic Honesty
 
