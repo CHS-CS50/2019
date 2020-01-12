@@ -98,75 +98,36 @@ Incidentally, recall that the positions of tiles numbered 1 and 2 should only st
 
 Do not alter the flow of logic in `main` itself so that we can automate some tests of your program once submitted. In particular, `main` must only return `0` if and when the user has actually won the game; non-zero values should be returned in any cases of error, as implied by our distribution code.
 
+{% next "Ready to Test" %}
+
 # Testing
 
-To test your implementation of `fifteen`, you can certainly try playing it. (Know that you can force your program to quit by hitting ctrl-c.) Be sure that you (and we) cannot crash your program, as by providing bogus tile numbers. And know that, much like you automated input into `find`, so can you automate execution of this game. In fact, in `~cs50/2019/ap/chapter3` are `3x3.txt` and `4x4.txt`, winning sequences of moves for a 3 × 3 board and a 4 × 4 board, respectively. To test your program with, say, the first of those inputs, execute the below.
-
-[source]
-----
-./fifteen 3 < ~cs50/2019/ap/chapter3/3x3.txt
-----
-
-=== Correctness
+## Correctness
 
 Note that `check50` assumes that you're indexing into `board` a la `board[row][column]`, not `board[column][row]`.
 
-[source]
-----
-check50 cs50/problems/2019/ap/fifteen
-----
+`check50 cs50/problems/2019/ap/fifteen`
 
-=== Style
+## Style
 
-[source]
-----
-style50 fifteen.c
-----
+`style50 fifteen.c`
 
-== Staff Solution
+## Staff Solution
 
 If you'd like to play with the staff's own implementation of `fifteen`, you may execute the below.
 
-[source]
-----
-~cs50/2019/ap/chapter3/fifteen
-----
+`~cs50/2019/ap/chapter3/fifteen`
 
-== How to Submit
+{% next "Ready to Submit" %}
 
-=== Step 1 of 2
+# How to Submit
 
-Ensure you have all of the files below:
+1. Ensure you have all of the files below:
+   - fifteen.c
+   - questions.md
 
-* fifteen.c
-* questions.md
+1. To submit `fifteen`, execute `submit50 cs50/problems/2019/ap/fifteen` inputting your GitHub username and GitHub password as prompted.
 
-Be sure that each of your files are in `~/chapter3/fifteen`, as with:
+   You may resubmit any problem as many times as you'd like.
 
-[source]
-----
-cd ~/chapter3/fifteen
-ls
-----
-
-If any file is not in `~/chapter3/fifteen`, move it into that directory, as via `mv` (or via CS50 IDE's lefthand file browser).
-
-=== Step 2 of 2
-
-To submit `fifteen`, execute
-+
-[source]
-----
-cd ~/chapter3/fifteen/
-submit50 cs50/problems/2019/ap/fifteen
-----
-+
-inputting your GitHub username and GitHub password as prompted.
-
-If you run into any trouble, email sysadmins@cs50.harvard.edu!
-
-You may resubmit any problem as many times as you'd like.
-
-Your submission should be graded for correctness within 2 minutes, at which point your score will appear at https://submit.cs50.io/[submit.cs50.io]!
-
-This was Fifteen.
+   Your submission should be graded for correctness within 2 minutes, at which point your score will appear at https://submit.cs50.io/[submit.cs50.io]!
