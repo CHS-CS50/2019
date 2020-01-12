@@ -8,4 +8,4 @@ This is CHS-ICS, Clayton High School's Introduction to Computer Science and the 
 
 ## Class Calendar
 
-<iframe src="https://calendar.google.com/calendar/embed?src=claytonps.org_classroomc9e51a38%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Y2xheXRvbnBzLm9yZ19pc24xYnY0am1hbTE2cGJtMGYzODBybzM4OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xheXRvbnBzLm9yZ19jbGFzc3Jvb21jOWU1MWEzOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%233366CC&amp;color=%238A2D38&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=MONTH&amp;title=CHS-ICS" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
