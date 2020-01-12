@@ -51,32 +51,32 @@ Anyhow, it appears that the game is at least partly functional. Granted, it's no
 
 ## Checking for Understanding
 
-Read over the code and comments in `fifteen.c` and then answer the questions below in `questions.md`, which is a (nearly empty) text file that we included for you inside of the distribution's `fifteen` directory. No worries if you're not quite sure how `fprintf` or `fflush` work; we're simply using those to automate some testing.
+Read over the code and comments in `fifteen.c` and then answer the questions in `questions.md`, which is a (nearly empty) text file that we included for you inside of the distribution's `fifteen` directory.
 
-. Besides 4 × 4 (which are Game of Fifteen's dimensions), what other dimensions does the framework allow?
-. With what sort of data structure is the game's board represented?
-. What function is called to greet the player at game's start?
-. What functions do you apparently need to implement?
+No worries if you're not quite sure how `fprintf` or `fflush` work; we're simply using those to automate some testing.
 
-== Specification
+{% next "Let's Move On" %}
+
+# TODO
 
 Implement the Game of Fifteen, per the comments in `fifteen.c`.
 
-. Implement `init`.
-. Implement `draw`.
-. Implement `move`.
-. Implement `won`.
+- Implement `init`.
+- Implement `draw`.
+- Implement `move`.
+- Implement `won`.
 
-== Walkthrough
+## Walkthrough
 
-video::Rx_FJb3vr9U[youtube]
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=Rx_FJb3vr9U" target="_blank"><img src="http://img.youtube.com/vi/Rx_FJb3vr9U/0.jpg" alt="Fifteen Walkthrough" width="240" height="180" border="10" /></a>
 
-== Hints
+## Hints
 
-Remember to take "baby steps." Don't try to bite off the entire game at once. Instead, implement one function at a time and be sure that it works before forging ahead. Remember to treat each function as a distinct piece of the program (e.g., the `init` function should not print anything; the `draw` function should not modify the board; etc.). Any design decisions not explicitly prescribed herein (e.g., how much space you should leave between numbers when printing the board) are intentionally left to you. Presumably the board, when printed, should look something like the below, but we leave it to you to implement your own vision.
+- Remember to take "baby steps." Don't try to bite off the entire game at once.
+- Implement one function at a time and be sure that it works before forging ahead. Remember to treat each function as a distinct piece of the program (e.g., the `init` function should not print anything; the `draw` function should not modify the board; etc.).
+- Any design decisions not explicitly prescribed herein (e.g., how much space you should leave between numbers when printing the board) are intentionally left to you. Presumably the board, when printed, should look something like the below, but we leave it to you to implement your own vision.
 
-[source]
-----
+```
 15 14 13 12
 
 11 10  9  8
@@ -84,24 +84,21 @@ Remember to take "baby steps." Don't try to bite off the entire game at once. In
  7  6  5  4
 
  3  1  2  _
-----
+```
 
 Incidentally, recall that the positions of tiles numbered 1 and 2 should only start off swapped (as they are in the 4 × 4 example above) if the board has an odd number of tiles (as does the 4 × 4 example above). If the board has an even number of tiles, those positions should not start off swapped. And so they do not in the 3 × 3 example below:
 
-[source]
-----
+```
 8  7  6
 
 5  4  3
 
 2  1  _
-----
+```
 
-Feel free to tweak the appropriate argument to `usleep` to speed up animation. In fact, you're welcome to alter the aesthetics of the game. For (optional) fun with "ANSI escape sequences," including color, take a look at our implementation of `clear` and check out http://isthe.com/chongo/tech/comp/ansi_escapes.html for more tricks.
+Do not alter the flow of logic in `main` itself so that we can automate some tests of your program once submitted. In particular, `main` must only return `0` if and when the user has actually won the game; non-zero values should be returned in any cases of error, as implied by our distribution code.
 
-You're welcome to write your own functions and even change the prototypes of functions we wrote. But you may not alter the flow of logic in `main` itself so that we can automate some tests of your program once submitted. In particular, `main` must only return `0` if and when the user has actually won the game; non-zero values should be returned in any cases of error, as implied by our distribution code.
-
-== Testing
+# Testing
 
 To test your implementation of `fifteen`, you can certainly try playing it. (Know that you can force your program to quit by hitting ctrl-c.) Be sure that you (and we) cannot crash your program, as by providing bogus tile numbers. And know that, much like you automated input into `find`, so can you automate execution of this game. In fact, in `~cs50/2019/ap/chapter3` are `3x3.txt` and `4x4.txt`, winning sequences of moves for a 3 × 3 board and a 4 × 4 board, respectively. To test your program with, say, the first of those inputs, execute the below.
 
