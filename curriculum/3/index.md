@@ -32,9 +32,9 @@
 ## Problems
 
 1. [Fifteen](https://lab.cs50.io/CHS-CS50/problems/master/3/)
-1. [Whodunit](https://docs.cs50.net/2019/ap/problems/whodunit/whodunit.html)
-1. [Resize (less comfy)](https://docs.cs50.net/2019/ap/problems/resize/less/resize.html)
-1. [Recover](https://docs.cs50.net/2019/ap/problems/recover/recover.html)
+1. [Whodunit](#)
+1. [Resize (less comfy)](#)
+1. [Recover](#)
 
 ## Reference Sheets
 
